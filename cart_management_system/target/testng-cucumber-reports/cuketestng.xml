@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results failed="0" passed="2" skipped="0" total="2">
+<suite duration-ms="10213" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="10213" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="To Test the CartManagementSystem Application">
+<test-method duration-ms="8424" finished-at="2020-10-01T01:09:51.660082200Z" name="To Test the Login Function of CartManagementSystem" started-at="2020-10-01T01:09:43.156929700Z" status="PASS"/>
+<test-method duration-ms="1097" finished-at="2020-10-01T01:09:52.959263800Z" name="To Add and Remove item" started-at="2020-10-01T01:09:51.860546Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>

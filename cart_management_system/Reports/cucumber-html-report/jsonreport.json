@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-01T01:09:43.156Z",
+        "line": 3,
+        "name": "To Test the Login Function of CartManagementSystem",
+        "description": "",
+        "id": "to-test-the-cartmanagementsystem-application;to-test-the-login-function-of-cartmanagementsystem",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7202270800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235350800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56848500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10970800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "If Login fails give warning message",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.if_Login_fails_give_warning_message()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 918906500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-01T01:09:51.860Z",
+        "line": 10,
+        "name": "To Add and Remove item",
+        "description": "",
+        "id": "to-test-the-cartmanagementsystem-application;to-add-and-remove-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143616900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To Click the Add To Cart Button",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_Click_the_Add_To_Cart_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195478500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To Remove the Add From Cart",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.to_Remove_the_Add_From_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 758625200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.step_defination.CartLoginSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the CartManagementSystem Application",
+    "description": "",
+    "id": "to-test-the-cartmanagementsystem-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase.feature",
+    "tags": []
+  }
+]
