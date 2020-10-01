@@ -1,0 +1,7 @@
+browser = chrome
+url = http://localhost:4200/login
+
+#login cridentials 
+username = SrinidhiKonda
+password = srinidhi
+
